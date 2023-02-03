@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\CORE\\CORE.csproj": {}
+    "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\CORE\\CORE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\CORE\\CORE.csproj": {
+    "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\CORE\\CORE.csproj",
+        "projectUniqueName": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\CORE\\CORE.csproj",
+        "projectPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\CORE\\CORE.csproj",
         "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\CORE\\obj\\",
+        "outputPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\DATA\\DATA.csproj": {
-                "projectPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\DATA\\DATA.csproj"
+              "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\DATA\\DATA.csproj": {
+                "projectPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\DATA\\DATA.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\DATA\\DATA.csproj": {
+    "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\DATA\\DATA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\DATA\\DATA.csproj",
+        "projectUniqueName": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\DATA\\DATA.csproj",
         "projectName": "DATA",
-        "projectPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\DATA\\DATA.csproj",
+        "projectPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\DATA\\DATA.csproj",
         "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\DATA\\obj\\",
+        "outputPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\DATA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",

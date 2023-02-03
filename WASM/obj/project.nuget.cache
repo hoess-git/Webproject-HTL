@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tb9FSY4DZzf6Dx4LrFSQrDUNIbRC7HA8cHe9tCQ6k2wUn5lxS4eBzCSlaEfMxqYs+pVJKNZdJo+jQULK/mz0uA==",
+  "dgSpecHash": "mvuOltUP+QI7Se03ECFABqf4fMhX8M9FWn9R72r5l++oj1MT5Qs8APAJrL40DOiZh8FvwjXnYojUhxPURsU1Vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\WASM\\WASM.csproj",
+  "projectFilePath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\WASM\\WASM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

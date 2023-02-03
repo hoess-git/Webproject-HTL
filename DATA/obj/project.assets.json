@@ -3640,11 +3640,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\DATA\\DATA.csproj",
+      "projectUniqueName": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\DATA\\DATA.csproj",
       "projectName": "DATA",
-      "projectPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\DATA\\DATA.csproj",
+      "projectPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\DATA\\DATA.csproj",
       "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\DATA\\obj\\",
+      "outputPath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\DATA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",

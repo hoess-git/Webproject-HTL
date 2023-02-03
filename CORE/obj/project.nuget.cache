@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MlT0b1WZwmHoxoMP2yu2y3TGh9ujQnlJOBD/NThyC4Fbz1E86z/jDxtDuZPGpivREkRotHR8t/czucSl8EJU/A==",
+  "dgSpecHash": "sXXWH47aas+mML6Kdmz4GnqN00Fg0shRzfa+7GXm4qvY1bVrvpP1ZOVS6RFd5uUPRs7dAI3ze3jUCBCnQcSIKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\CORE\\CORE.csproj",
+  "projectFilePath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\CORE\\CORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

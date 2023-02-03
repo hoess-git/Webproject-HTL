@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AHGV5b3khQ+MhOhkL+CDvIRH93LPq43OYgejxMEPNXnji7T/GV2TbnS1bUiubKCVznScsDMMh3g3q9jkarrfdQ==",
+  "dgSpecHash": "m6S2o/JaksTEuo1wMT1/mor1CHPaHpZOV9nteIPfJwzGRwNHXgfuaQpxSaJgq0nwPugW5JlSws+eF3SW5QHv6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\marce\\OneDrive\\Dokumente\\HTL\\5te\\SWP Stimpfl\\Web\\Projekt\\Webproject-HTL\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
