@@ -1,43 +1,50 @@
 ﻿@page "/createorder"
 @inject HttpClient http
+@inject ISnackbar Snackbar
 
 <h3>Bestellung erstellen</h3>
 
-<EditForm Model="order" OnValidSubmit="OnValidSubmit">
-	<DataAnnotationsValidator />
 
-	<label>Datum</label>
-	<InputDate class="col-lg-5" @bind-Value="order.Date"></InputDate>
-	<br />
-	<label>Kunde</label>
-	<InputSelect class="col-lg-5" @bind-Value="order.CustomerId">
-		@foreach(CustomerDto customer in Customers)
-		{
-			<option value="customer.Id">@customer.FirstName @customer.LastName</option>
-		}
-	</InputSelect>
-	<br />
-	<label>Artikel</label>
-	<select class="col-lg-5">
-		@foreach(ItemDto item in Items)
-		{
-			<option onclick="() => @AddItem(item)">@item.Name</option>
-		}
-	</select>
-	<h4>Items</h4>
-	@foreach(ItemDto item in SelectedItems)
-	{
-		<p>@item.Name</p>
-		<p></p>
-	}
-	<br />
-	<button type="submit">Anlegen</button>
-</EditForm>
+@if (Items.Count == 0)
+{
+	<h4>...</h4>
+}
+else
+{
+	<EditForm Model="order" OnValidSubmit="OnValidSubmit">
+		<DataAnnotationsValidator />
 
+		<label>Datum</label>
+		<InputDate class="col-lg-5" @bind-Value="order.Date"></InputDate>
+		<br />
+		<label>Kunde</label>
+		<InputSelect class="col-lg-5" @bind-Value="order.CustomerId">
+			@foreach (CustomerDto customer in Customers)
+			{
+				<option value="@customer.Id">@customer.FirstName @customer.LastName</option>
+			}
+		</InputSelect>
+		<br />
+		<label>Artikel</label>
+		<select class="col-lg-5">
+			@foreach (ItemDto item in Items)
+			{
+				<option onclick="@(() => AddItem(item))">@item.Name @item.Description @item.Price €</option>
+			}
+		</select>
+		<h4>Items</h4>
+		@foreach (ItemDto item in SelectedItems)
+		{
+			<p>@item.Name @item.Description @item.Price €</p>
+		}
+		<br />
+		<button type="submit">Anlegen</button>
+	</EditForm>
+}
 
 @code {
-	List<CustomerDto> Customers;
-	List<ItemDto> Items;
+	List<CustomerDto> Customers = new();
+	List<ItemDto> Items = new();
 
 	List<ItemDto> SelectedItems = new();
 	OrderCreateEditDto order = new();
@@ -46,6 +53,7 @@
 	{
 		Customers = await Api.Get<List<CustomerDto>>("http://localhost:5244/api/customer", http);
 		Items = await Api.Get<List<ItemDto>>("http://localhost:5244/api/item", http);
+		order.Date = DateTime.Today;
 		StateHasChanged();
 	}
 
@@ -53,15 +61,15 @@
 	{
 		order.Items = SelectedItems;
 		OrderDto result = await Api.Post<OrderDto>("http://localhost:5244/api/createorder", order, http);
+		Snackbar.Add($"Bestellung: {result.Id} hinzugefügt", Severity.Success);
 	}
 
-	private object AddItem(ItemDto item)
+	private void AddItem(ItemDto item)
 	{
 		if (!SelectedItems.Contains(item))
 			SelectedItems.Add(item);
 		else
 			SelectedItems.Remove(item);
 		StateHasChanged();
-		return " ";
 	}
 }

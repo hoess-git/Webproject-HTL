@@ -24,7 +24,17 @@ namespace CORE.Repos
 		public async Task CreateAsync(OrderCreateEditDto objDTO)
 		{
 			var obj = mapper.Map<OrderCreateEditDto, Order>(objDTO);
-			Db.Orders.Add(obj);
+			var createdobj = Db.Orders.Add(obj);
+			var createdOrder = createdobj.Entity;
+			foreach(ItemDto item in objDTO.Items)
+			{
+				ItemOrder io = new ItemOrder
+				{
+					OrderId = createdOrder.Id,
+					ItemId = item.Id
+				};
+				Db.ItemOrders.Add(io);
+			}
 			await Db.SaveChangesAsync();
 		}
 

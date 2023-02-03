@@ -1,5 +1,6 @@
 ﻿@page "/createcustomer"
 @inject HttpClient http
+@inject ISnackbar Snackbar
 
 <h3>Kunde Erstellen</h3>
 
@@ -29,5 +30,6 @@
 	protected async void OnValidSubmit()
 	{
 		CustomerDto result = await Api.Post<CustomerDto>("http://localhost:5244/api/createcustomer", customer, http);
+		Snackbar.Add($"{result.FirstName} {result.LastName} hinzugefügt", Severity.Success);
 	}
 }

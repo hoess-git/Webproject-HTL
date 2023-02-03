@@ -12,3 +12,17 @@ C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\DATA\obj\Debug
 C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\DATA\obj\Debug\net7.0\DATA.pdb
 C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\DATA\obj\Debug\net7.0\DATA.genruntimeconfig.cache
 C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\DATA\obj\Debug\net7.0\ref\DATA.dll
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\bin\Debug\net7.0\DATA.deps.json
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\bin\Debug\net7.0\DATA.runtimeconfig.json
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\bin\Debug\net7.0\DATA.dll
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\bin\Debug\net7.0\DATA.pdb
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\DATA.csproj.AssemblyReference.cache
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\DATA.AssemblyInfoInputs.cache
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\DATA.AssemblyInfo.cs
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\DATA.csproj.CoreCompileInputs.cache
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\DATA.dll
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\refint\DATA.dll
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\DATA.pdb
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\DATA.genruntimeconfig.cache
+C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\Webproject-HTL\DATA\obj\Debug\net7.0\ref\DATA.dll
