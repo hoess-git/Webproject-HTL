@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = WASM
+build_property.RootNamespace = WASM
+build_property.ProjectDir = C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\WASM\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\marce\OneDrive\Dokumente\HTL\5te\SWP Stimpfl\Web\Projekt\WASM
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Pages/Customer/AddCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQWRkQ3VzdG9tZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Pages/Customer/ListCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcTGlzdEN1c3RvbWVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Pages/Item/AddItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbVxBZGRJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Pages/Item/ListItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbVxMaXN0SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Pages/Order/AddOrder.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcQWRkT3JkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Pages/Order/ListOrder.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcTGlzdE9yZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-objvkoevxv
+
+[C:/Users/marce/OneDrive/Dokumente/HTL/5te/SWP Stimpfl/Web/Projekt/WASM/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q3g6d8h0nj

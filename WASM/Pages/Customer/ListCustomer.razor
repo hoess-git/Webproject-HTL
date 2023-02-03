@@ -1,0 +1,64 @@
+﻿@page "/customers"
+@inject HttpClient http
+@inject ILogger<Program> logger
+
+<h3>Kundenliste</h3>
+
+@if (Customers == null)
+{
+	<h4>...</h4>
+}
+else
+{
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>Vorname</th>
+				<th>Nachname</th>
+				<th>Adresse</th>
+				<th>Bestellungen</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (CustomerDto customer in Customers)
+			{
+				<tr>
+					@if (customer.FirstName != null)
+					{
+						<td>@customer.FirstName.ToString()</td>
+					}
+					else
+					{
+						<td></td>
+					}
+					<td>@customer.LastName.ToString()</td>
+					<td>@customer.Address.ToString()</td>
+					<td>
+						@if (customer.Orders != null)
+							@foreach (OrderDto order in customer.Orders)
+							{
+								<div>@order.Id.ToString()</div>
+							}
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	List<CustomerDto> Customers;
+
+	protected override async void OnInitialized()
+	{
+		try
+		{
+			Customers = await Api.Get<List<CustomerDto>>("http://localhost:5244/api/customer", http);
+			StateHasChanged();
+		}
+		catch (Exception ex)
+		{
+			logger.LogError(ex.Message);
+		}
+	}
+}

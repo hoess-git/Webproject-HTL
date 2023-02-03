@@ -1,0 +1,47 @@
+﻿@page "/orders"
+@inject HttpClient http
+
+<h3>Bestellungsliste</h3>
+
+@if (Orders.Count == 0)
+{
+	<h4>...</h4>
+}
+else
+{
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>Datum</th>
+				<th>Kundenname</th>
+				<th>Artikel</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (OrderDto order in Orders)
+			{
+				<tr>
+					<td>@order.Date</td>
+					<td>@order.Customer.FirstName @order.Customer.LastName</td>
+					<td>
+						@if (order.Items != null)
+							@foreach (ItemDto item in order.Items)
+							{
+								<div>@item.Name @item.Description @item.Price €</div>
+							}
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	List<OrderDto> Orders = new();
+
+	protected override async void OnInitialized()
+	{
+		Orders = await Api.Get<List<OrderDto>>("http://localhost:5244/api/order", http);
+		StateHasChanged();
+	}
+}

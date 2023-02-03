@@ -1,0 +1,41 @@
+﻿@page "/items"
+@inject HttpClient http
+
+<h3>Artikelliste</h3>
+
+@if (Items.Count == 0)
+{
+	<h4>...</h4>
+}
+else
+{
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Beschreibung</th>
+				<th>Preis</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (ItemDto item in Items)
+			{
+				<tr>
+					<td>@item.Name</td>
+					<td>@item.Description</td>
+					<td>@item.Price</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	List<ItemDto> Items = new();
+
+	protected override async void OnInitialized()
+	{
+		Items = await Api.Get<List<ItemDto>>("http://localhost:5244/api/item", http);
+		StateHasChanged();
+	}
+}

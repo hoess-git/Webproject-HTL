@@ -1,0 +1,33 @@
+﻿@page "/createcustomer"
+@inject HttpClient http
+
+<h3>Kunde Erstellen</h3>
+
+<EditForm Model="customer" OnValidSubmit="OnValidSubmit">
+	<DataAnnotationsValidator />
+
+	<label>Vorname</label>
+	<InputText class="col-lg-5" @bind-Value="customer.FirstName"></InputText>
+	<br />
+	<label>Nachname</label>
+	<InputText class="col-lg-5" @bind-Value="customer.LastName"></InputText>
+	<br />
+	<label>Adresse</label>
+	<InputText class="col-lg-5" @bind-Value="customer.Address"></InputText>
+	<br />
+	<button type="submit">Anlegen</button>
+</EditForm>
+
+@code {
+	CustomerCreateEditDto customer = new();
+
+	protected override void OnInitialized()
+	{
+		StateHasChanged();
+	}
+
+	protected async void OnValidSubmit()
+	{
+		CustomerDto result = await Api.Post<CustomerDto>("http://localhost:5244/api/createcustomer", customer, http);
+	}
+}
