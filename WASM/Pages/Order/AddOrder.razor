@@ -15,10 +15,10 @@ else
 		<DataAnnotationsValidator />
 
 		<label>Datum</label>
-		<InputDate class="col-lg-5" @bind-Value="order.Date"></InputDate>
+		<InputDate class="col-lg-5 border" @bind-Value="order.Date"></InputDate>
 		<br />
 		<label>Kunde</label>
-		<InputSelect class="col-lg-5" @bind-Value="order.CustomerId">
+		<InputSelect class="col-lg-5 border" @bind-Value="order.CustomerId">
 			@foreach (CustomerDto customer in Customers)
 			{
 				<option value="@customer.Id">@customer.FirstName @customer.LastName</option>
@@ -26,7 +26,7 @@ else
 		</InputSelect>
 		<br />
 		<label>Artikel</label>
-		<select class="col-lg-5">
+		<select class="col-lg-5 border">
 			@foreach (ItemDto item in Items)
 			{
 				<option onclick="@(() => AddItem(item))">@item.Name @item.Description @item.Price €</option>
@@ -38,7 +38,7 @@ else
 			<p>@item.Name @item.Description @item.Price €</p>
 		}
 		<br />
-		<button type="submit">Anlegen</button>
+		<button type="submit" class="border">Anlegen</button>
 	</EditForm>
 }
 

@@ -8,15 +8,15 @@
 	<DataAnnotationsValidator />
 
 	<label>Vorname</label>
-	<InputText class="col-lg-5" @bind-Value="customer.FirstName"></InputText>
+	<InputText class="col-lg-5 border" @bind-Value="customer.FirstName"></InputText>
 	<br />
 	<label>Nachname</label>
-	<InputText class="col-lg-5" @bind-Value="customer.LastName"></InputText>
+	<InputText class="col-lg-5 border" @bind-Value="customer.LastName"></InputText>
 	<br />
 	<label>Adresse</label>
-	<InputText class="col-lg-5" @bind-Value="customer.Address"></InputText>
+	<InputText class="col-lg-5 border" @bind-Value="customer.Address"></InputText>
 	<br />
-	<button type="submit">Anlegen</button>
+	<button type="submit" class="border">Anlegen</button>
 </EditForm>
 
 @code {
